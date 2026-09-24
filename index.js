@@ -21,7 +21,7 @@ const client = new MongoClient(uri, {
 });
 
 app.get('/', (req,res)=>{
-  res.send(`Server Running at ${PORT}`)
+  res.send(`Server Pinged`)
 })
 
 
